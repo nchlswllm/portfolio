@@ -9,7 +9,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "1982754:1786742631691"
+    "srcKey": "1982754:1784148460524"
   },
   "running_playground.png": {
     "base": "running_playground",
@@ -21,7 +21,7 @@ const imageManifest = {
       3008,
       5896
     ],
-    "srcKey": "536772:1786742631815"
+    "srcKey": "536772:1784153443602"
   },
   "HC_Running_2.webp": {
     "base": "HC_Running_2",
@@ -33,7 +33,7 @@ const imageManifest = {
       1216,
       2250
     ],
-    "srcKey": "3174864:1786742631733"
+    "srcKey": "3174864:1784149410586"
   },
   "board_games_night.webp": {
     "base": "board_games_night",
@@ -44,7 +44,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "1311696:1786742631735"
+    "srcKey": "1311696:1784148504520"
   },
   "lager_than_life2.webp": {
     "base": "lager_than_life2",
@@ -55,7 +55,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "2895650:1786742631793"
+    "srcKey": "2895650:1784148598820"
   },
   "puma_bigpeach_hc_poster_edited.webp": {
     "base": "puma_bigpeach_hc_poster_edited",
@@ -67,7 +67,7 @@ const imageManifest = {
       1600,
       3200
     ],
-    "srcKey": "13707122:1786742631811"
+    "srcKey": "13707122:1784155038169"
   },
   "twin_night.webp": {
     "base": "twin_night",
@@ -78,7 +78,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "1305396:1786742631860"
+    "srcKey": "1305396:1786563608156"
   },
   "trivia_flyer_1080x1350_color.webp": {
     "base": "trivia_flyer_1080x1350_color",
@@ -89,7 +89,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "1051900:1786742631855"
+    "srcKey": "1051900:1786565909522"
   },
   "stammtisch-green.webp": {
     "base": "stammtisch-green",
@@ -100,7 +100,7 @@ const imageManifest = {
       608,
       950
     ],
-    "srcKey": "303448:1786742631855"
+    "srcKey": "303448:1786567081032"
   },
   "stammtisch-1.webp": {
     "base": "stammtisch-1",
@@ -111,7 +111,7 @@ const imageManifest = {
       608,
       950
     ],
-    "srcKey": "284514:1786742631854"
+    "srcKey": "284514:1786567070600"
   },
   "staff_show_digital_01.webp": {
     "base": "staff_show_digital_01",
@@ -123,7 +123,7 @@ const imageManifest = {
       1600,
       3168
     ],
-    "srcKey": "26931708:1786742631852"
+    "srcKey": "26931708:1786655043604"
   },
   "roast_dinner_card_1080x1920.webp": {
     "base": "roast_dinner_card_1080x1920",
@@ -134,7 +134,7 @@ const imageManifest = {
       608,
       1080
     ],
-    "srcKey": "1320768:1786742631813"
+    "srcKey": "1320768:1784154683841"
   },
   "ig_post_final_czechbeerdays.webp": {
     "base": "ig_post_final_czechbeerdays",
@@ -146,7 +146,7 @@ const imageManifest = {
       1408,
       2250
     ],
-    "srcKey": "7379422:1786742631787"
+    "srcKey": "7379422:1786736097972"
   },
   "ig_post_final_czechbeerdays_events.webp": {
     "base": "ig_post_final_czechbeerdays_events",
@@ -158,7 +158,7 @@ const imageManifest = {
       1408,
       2250
     ],
-    "srcKey": "1834230:1786742631789"
+    "srcKey": "1834230:1784148142842"
   },
   "Holiday_Hours_November.webp": {
     "base": "Holiday_Hours_November",
@@ -170,7 +170,7 @@ const imageManifest = {
       960,
       1080
     ],
-    "srcKey": "504564:1786742631734"
+    "srcKey": "504564:1784147703092"
   },
   "Holiday_Hours_December.webp": {
     "base": "Holiday_Hours_December",
@@ -182,7 +182,7 @@ const imageManifest = {
       960,
       1080
     ],
-    "srcKey": "1083688:1786742631734"
+    "srcKey": "1083688:1784147734127"
   },
   "HC_Building.webp": {
     "base": "HC_Building",
@@ -193,7 +193,7 @@ const imageManifest = {
       1024,
       1834
     ],
-    "srcKey": "614490:1786742631726"
+    "srcKey": "614490:1784147496887"
   },
   "FUNday_.webp": {
     "base": "FUNday_",
@@ -205,7 +205,7 @@ const imageManifest = {
       1216,
       2250
     ],
-    "srcKey": "3092166:1786742631725"
+    "srcKey": "3092166:1786737533442"
   },
   "Eurovision_Poster.webp": {
     "base": "Eurovision_Poster",
@@ -217,6 +217,17 @@ const imageManifest = {
       1472,
       2944
     ],
-    "srcKey": "11786494:1786742631720"
+    "srcKey": "11786494:1786738499434"
+  },
+  "boevenbartype.webp": {
+    "base": "boevenbartype",
+    "w": 1080,
+    "h": 439,
+    "tiers": [
+      384,
+      736,
+      1080
+    ],
+    "srcKey": "88294:1784147623191"
   }
 };

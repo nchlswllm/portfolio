@@ -355,4 +355,76 @@ const projects = [
             rotation: 1
         } 
     },
+    {
+        id: "boeven_bar",
+        image: "boevenbartype.webp",
+
+        metadata: {
+            name: "Boeven Bar Typography",
+            type: "Asset",
+            tools: ["Procreate"
+            ],
+            year: "2025"
+        },
+        transform: {
+            scale: 477.3779836587386,
+            x: 2974.1561,
+            y: 4461.142195,
+            rotation: 0
+        }
+    },
+    {
+        id: "boeven_menu_example",
+        image: "Boeven_Menu_example.webp",
+
+        metadata: {
+            name: "Boeven Menu Example",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"
+            ],
+            year: "2025"
+        },
+        transform: {
+    scale: 300,
+    x: 2774.8542809048085,
+    y: 4796.002155513134,
+    rotation: -1
+}
+    },
+    {
+        id: "boeven_menu_example_back",
+        image: "Boeven_Menu_example_back.webp",
+
+        metadata: {
+            name: "Boeven Menu Example Back",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"
+            ],
+            year: "2025"
+        },
+        transform: {
+    scale: 300,
+    x: 3135.773544227724,
+    y: 4752.064158239041,
+    rotation: 1
+}
+    },
+    {
+        id: "boeven_poster_final",
+        image: "boeven_poster_final.webp",
+
+        metadata: {
+            name: "Boeven Poster Final",
+            type: "Poster Design",
+            tools: ["Illustrator", "Photoshop", "InDesign"
+            ],
+            year: "2025"
+        },
+        transform: {
+    scale: 300,
+    x: 3364.878815728357,
+    y: 3857.612070873554,
+    rotation: -1
+}
+    },
 ];
