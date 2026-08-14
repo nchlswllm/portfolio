@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Infinite Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="modeMessage"></div>
+
+<div id="viewport">
+    <div id="canvas">
+        <div id="desktopFrame" class="viewportGuide">DESKTOP 1920×1080</div>
+        <div id="laptopFrame" class="viewportGuide">LAPTOP 1366×768</div>
+        <div id="mobileFrame" class="viewportGuide">MOBILE 390×844</div>
+    </div>
+</div>
+
+<div id="curatorHUD">
+object.selected {
+<br><br>
+id:
+<br>
+"<span id="hudID">---</span>"
+<br><br>
+transform:
+<br>
+&nbsp;&nbsp;scale:
+<span id="hudScale">---</span>
+<br>
+&nbsp;&nbsp;x:
+<span id="hudX">---</span>
+<br>
+&nbsp;&nbsp;y:
+<span id="hudY">---</span>
+<br>
+&nbsp;&nbsp;rotation:
+<span id="hudRotation">---</span>
+<br><br>
+<button id="copyTransform">
+    copy_transform
+</button>
+}
+</div>
+
+<script src="projects.js"></script>
+<script src="editor.js"></script>
+<script src="gallery.js"></script>
+<script src="state.js"></script>
+
+</body>
+</html>
