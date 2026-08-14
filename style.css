@@ -50,14 +50,35 @@ html, body {
     transform-origin: 0 0;
 
 }
+
+/* Compositor hint only while actively panning/zooming — see gallery.js
+   beginInteraction/endInteractionSoon. Permanently promoting every .project
+   tile was tried and reverted; with dozens of large images resident that
+   pinned far more GPU memory than it saved. */
+#canvas.interacting {
+    will-change: transform;
+}
+
 .project {
     position: absolute;
     transform-origin:center center;
 }
 
+/* Offscreen tiles (see gallery.js refreshTiles/setCulled): skip layout and
+   paint, and the srcset is already shrunk to the smallest generated tier so
+   the decoded bitmap gets released too. */
+.project.culled {
+    content-visibility: hidden;
+}
+
+
+.project picture {
+    display: block;
+}
 
 .project img {
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -230,9 +251,6 @@ body.curator .viewportGuide {
     height: 844px;
     border: 2px solid green;
     color: green;
-}
-.project {
-    will-change: left, top, transform;
 }
 img {
     image-rendering: auto;

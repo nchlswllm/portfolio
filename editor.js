@@ -97,12 +97,11 @@ window.addEventListener("keydown", (e) => {
         selectedProject.transform.rotation += 1;
     }
 
-    const selectedItem = document.querySelector(
-        `.project[data-id="${selectedProject.id}"]`
-    );
-
-    if (selectedItem) {
-        selectedItem.style.transform =
+    // selectedProject.el is a direct reference set in gallery.js — several
+    // projects share the same `id`, so looking this up by data-id would
+    // rotate the wrong (first-matching) tile.
+    if (selectedProject.el) {
+        selectedProject.el.style.transform =
             `rotate(${selectedProject.transform.rotation}deg)`;
     }
 
