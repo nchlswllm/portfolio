@@ -188,8 +188,8 @@
     "w": 1834,
     "h": 1001,
     "tiers": [
-      512,
-      1024,
+      640,
+      1248,
       1834
     ],
     "srcKey": "614490:1784147496887"
@@ -223,10 +223,591 @@
     "w": 1080,
     "h": 439,
     "tiers": [
-      384,
-      736,
+      480,
+      960,
       1080
     ],
     "srcKey": "88294:1784147623191"
+  },
+  "Boeven_Menu_example.webp": {
+    "base": "Boeven_Menu_example",
+    "w": 1832,
+    "h": 2912,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1832
+    ],
+    "srcKey": "3385080:1784148882638"
+  },
+  "Boeven_Menu_example_back.webp": {
+    "base": "Boeven_Menu_example_back",
+    "w": 1832,
+    "h": 2912,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1832
+    ],
+    "srcKey": "3872164:1784149081474"
+  },
+  "boeven_poster_final.webp": {
+    "base": "boeven_poster_final",
+    "w": 3475,
+    "h": 5275,
+    "tiers": [
+      384,
+      768,
+      1504,
+      3008
+    ],
+    "srcKey": "18439686:1786565962598"
+  },
+  "akira.webp": {
+    "base": "akira",
+    "w": 1131,
+    "h": 745,
+    "tiers": [
+      320,
+      608,
+      1131
+    ],
+    "srcKey": "657172:1787157561831"
+  },
+  "BackCover_Akira.webp": {
+    "base": "BackCover_Akira",
+    "w": 2761,
+    "h": 3480,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "3670406:1787157595747"
+  },
+  "basic_typography_poster.webp": {
+    "base": "basic_typography_poster",
+    "w": 1435,
+    "h": 1981,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1435
+    ],
+    "srcKey": "2955212:1787158345038"
+  },
+  "bookings_open.webp": {
+    "base": "bookings_open",
+    "w": 1080,
+    "h": 1350,
+    "tiers": [
+      320,
+      608,
+      1080
+    ],
+    "srcKey": "997620:1787156839301"
+  },
+  "drawingspread.webp": {
+    "base": "drawingspread",
+    "w": 3033,
+    "h": 2140,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "6286556:1787157917574"
+  },
+  "eameswirechair.webp": {
+    "base": "eameswirechair",
+    "w": 2480,
+    "h": 3508,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "4599032:1786748351486"
+  },
+  "ElsewhereMenupaper.webp": {
+    "base": "ElsewhereMenupaper",
+    "w": 1650,
+    "h": 3150,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1650
+    ],
+    "srcKey": "4330958:1787159827944"
+  },
+  "ExhibitionPoster.webp": {
+    "base": "ExhibitionPoster",
+    "w": 1435,
+    "h": 1969,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1435
+    ],
+    "srcKey": "3233966:1787158399953"
+  },
+  "flash_carousel.webp": {
+    "base": "flash_carousel",
+    "w": 4320,
+    "h": 1350,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "3513864:1787156770839"
+  },
+  "FrontCover_Akira.webp": {
+    "base": "FrontCover_Akira",
+    "w": 2685,
+    "h": 3420,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "3381296:1787157637267"
+  },
+  "good_morning.webp": {
+    "base": "good_morning",
+    "w": 1599,
+    "h": 972,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1599
+    ],
+    "srcKey": "612494:1787158471090"
+  },
+  "helix00.webp": {
+    "base": "helix00",
+    "w": 4136,
+    "h": 2360,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "1898402:1787158589894"
+  },
+  "helix01.webp": {
+    "base": "helix01",
+    "w": 4128,
+    "h": 2312,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "2338670:1787158610955"
+  },
+  "helix02.webp": {
+    "base": "helix02",
+    "w": 4088,
+    "h": 2292,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "1177406:1787158634905"
+  },
+  "helix03.webp": {
+    "base": "helix03",
+    "w": 4068,
+    "h": 2308,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "4202892:1787158676133"
+  },
+  "helix_poster.webp": {
+    "base": "helix_poster",
+    "w": 2480,
+    "h": 3508,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "2754004:1787158504360"
+  },
+  "hm_logo_3d.webp": {
+    "base": "hm_logo_3d",
+    "w": 592,
+    "h": 486,
+    "tiers": [
+      320,
+      592
+    ],
+    "srcKey": "131922:1787157354511"
+  },
+  "how_to_book.webp": {
+    "base": "how_to_book",
+    "w": 4500,
+    "h": 5625,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "6671530:1787160529176"
+  },
+  "nara_10-11.webp": {
+    "base": "nara_10-11",
+    "w": 6774,
+    "h": 4428,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "18165206:1787159554504"
+  },
+  "nara_12-13.webp": {
+    "base": "nara_12-13",
+    "w": 1419,
+    "h": 938,
+    "tiers": [
+      320,
+      608,
+      1216,
+      1419
+    ],
+    "srcKey": "1407160:1787159338036"
+  },
+  "nara_14-15.webp": {
+    "base": "nara_14-15",
+    "w": 6804,
+    "h": 4530,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "23124310:1787159592466"
+  },
+  "nara_16.webp": {
+    "base": "nara_16",
+    "w": 6702,
+    "h": 4422,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "6343660:1787159627542"
+  },
+  "nara_1st.webp": {
+    "base": "nara_1st",
+    "w": 6696,
+    "h": 4392,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "4554856:1787159382050"
+  },
+  "nara_2-3.webp": {
+    "base": "nara_2-3",
+    "w": 6768,
+    "h": 4476,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "17507104:1787159424655"
+  },
+  "nara_4-5.webp": {
+    "base": "nara_4-5",
+    "w": 6684,
+    "h": 4398,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "12532292:1787159447103"
+  },
+  "nara_6-7.webp": {
+    "base": "nara_6-7",
+    "w": 6714,
+    "h": 4338,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "13703540:1787159496663"
+  },
+  "nara_8-9.webp": {
+    "base": "nara_8-9",
+    "w": 6714,
+    "h": 4440,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "15961424:1787159524751"
+  },
+  "nara_BackCover.webp": {
+    "base": "nara_BackCover",
+    "w": 3413,
+    "h": 4332,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "14910514:1787159655647"
+  },
+  "nara_FrontCover.webp": {
+    "base": "nara_FrontCover",
+    "w": 3409,
+    "h": 4338,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "8694858:1787159676177"
+  },
+  "nytimesmockup1.webp": {
+    "base": "nytimesmockup1",
+    "w": 1180,
+    "h": 939,
+    "tiers": [
+      320,
+      608,
+      1180
+    ],
+    "srcKey": "307348:1787158954990"
+  },
+  "nytimesmockup2.webp": {
+    "base": "nytimesmockup2",
+    "w": 2090,
+    "h": 1477,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2090
+    ],
+    "srcKey": "2075444:1787158992412"
+  },
+  "ODCD_cover.webp": {
+    "base": "ODCD_cover",
+    "w": 3000,
+    "h": 3000,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "9447024:1787159028480"
+  },
+  "offprintbitmaponbitmap jpg.webp": {
+    "base": "offprintbitmaponbitmap jpg",
+    "w": 2480,
+    "h": 3508,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "1886654:1786821659335"
+  },
+  "offprintdetails-02 jpg.webp": {
+    "base": "offprintdetails-02 jpg",
+    "w": 1021,
+    "h": 308,
+    "tiers": [
+      320,
+      608,
+      1021
+    ],
+    "srcKey": "44340:1787159755129"
+  },
+  "offprint_TYPE.webp": {
+    "base": "offprint_TYPE",
+    "w": 2745,
+    "h": 2301,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "172258:1786821621591"
+  },
+  "pg2_3_Akira.webp": {
+    "base": "pg2_3_Akira",
+    "w": 5302,
+    "h": 3552,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "7599042:1787157745188"
+  },
+  "pg4_5_AKira.webp": {
+    "base": "pg4_5_AKira",
+    "w": 5238,
+    "h": 3492,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "6968054:1787157794781"
+  },
+  "pg6_7_Akira.webp": {
+    "base": "pg6_7_Akira",
+    "w": 5251,
+    "h": 3498,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "8481632:1787157843172"
+  },
+  "pg8_Akira.webp": {
+    "base": "pg8_Akira",
+    "w": 5236,
+    "h": 3504,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "5050788:1787157873026"
+  },
+  "ProcessBoard_throneroom.webp": {
+    "base": "ProcessBoard_throneroom",
+    "w": 6000,
+    "h": 4245,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "3110036:1787159111458"
+  },
+  "summer19_cover.webp": {
+    "base": "summer19_cover",
+    "w": 3000,
+    "h": 3000,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "13235358:1787158222028"
+  },
+  "throne_room.webp": {
+    "base": "throne_room",
+    "w": 1170,
+    "h": 1422,
+    "tiers": [
+      320,
+      608,
+      1170
+    ],
+    "srcKey": "1535998:1787158791070"
+  },
+  "ValiantMarketing_ConceptBranding.webp": {
+    "base": "ValiantMarketing_ConceptBranding",
+    "w": 3375,
+    "h": 4527,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "5837878:1787157187839"
+  },
+  "whoaFINAL.webp": {
+    "base": "whoaFINAL",
+    "w": 3508,
+    "h": 4961,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "18932506:1787160287065"
+  },
+  "whoa_poster1.webp": {
+    "base": "whoa_poster1",
+    "w": 3508,
+    "h": 4961,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "9543058:1787160358196"
+  },
+  "whoa_poster2.webp": {
+    "base": "whoa_poster2",
+    "w": 3150,
+    "h": 4308,
+    "tiers": [
+      320,
+      608,
+      1216,
+      2400
+    ],
+    "srcKey": "2140218:1787160338250"
   }
 }
