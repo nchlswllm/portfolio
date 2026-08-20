@@ -950,6 +950,7 @@ function finishPointer(event) {
 
 viewport.addEventListener("pointerdown", event => {
     if (event.pointerType === "mouse" && event.button !== 0) return;
+    if (event.target.closest("a")) return;
     if (curatorMode && event.target.closest(".project")) return;
     event.preventDefault();
     const pointer = { id: event.pointerId, x: event.clientX, y: event.clientY };

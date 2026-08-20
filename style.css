@@ -122,6 +122,20 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
+.portfolioIntroEmail {
+    margin-top: 8px;
+    pointer-events: auto;
+    font-size: 14px;
+    line-height: 1;
+    color: inherit;
+    text-decoration: none;
+}
+
+.portfolioIntroEmail:hover,
+.portfolioIntroEmail:focus-visible {
+    text-decoration: underline;
+}
+
 .introMark {
     position: absolute;
     width: 20px;
@@ -216,7 +230,7 @@ body.mobileLanding .touchHint {
 }
 
 body.mobileLanding .portfolioIntroHint {
-    bottom: 110px;
+    bottom: 140px;
 }
 
 @media (pointer: coarse) {
