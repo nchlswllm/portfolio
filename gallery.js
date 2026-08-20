@@ -7,7 +7,8 @@ const BASE_MIN_ZOOM = 0.3;
 const manifest = typeof imageManifest !== "undefined" ? imageManifest : {};
 const spacedPreviewEnabled = new URLSearchParams(location.search).get("layoutPreview") === "spaced";
 const SPACED_PREVIEW_EXCLUSION = { minX: 5000, minY: 5000, maxX: 6920, maxY: 5945 };
-const mobileLanding = navigator.maxTouchPoints > 0 ||
+const mobileLanding = /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(navigator.userAgent) ||
+    navigator.maxTouchPoints > 0 ||
     matchMedia("(pointer: coarse)").matches ||
     "ontouchstart" in window;
 const MOBILE_LANDING_CENTER = { x: 5960, y: 5472.5 };

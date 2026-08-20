@@ -215,6 +215,10 @@ body.mobileLanding .touchHint {
     display: block;
 }
 
+body.mobileLanding .portfolioIntroHint {
+    bottom: 110px;
+}
+
 @media (pointer: coarse) {
     .desktopHint {
         display: none;
