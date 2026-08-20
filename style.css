@@ -215,7 +215,7 @@ body.mobileLanding .touchHint {
     display: block;
 }
 
-@media (max-width: 767px) {
+@media (pointer: coarse) {
     .desktopHint {
         display: none;
     }
