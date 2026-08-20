@@ -206,12 +206,23 @@ html, body {
     display: none;
 }
 
-body.mobileLanding .desktopHint {
+body.mobileLanding .desktopHint,
+body:not(.mobileLanding) .touchHint {
     display: none;
 }
 
 body.mobileLanding .touchHint {
     display: block;
+}
+
+@media (max-width: 767px) {
+    .desktopHint {
+        display: none;
+    }
+
+    .touchHint {
+        display: block;
+    }
 }
 
 #run_club {
