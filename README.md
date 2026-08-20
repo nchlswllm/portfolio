@@ -36,3 +36,25 @@ That's it — the script only (re)generates tiles for images that are new or who
 - The four tier widths generated per image are `scale × 1, 2, 4, 8`, clamped to the
   source's native width. That covers sharp rendering up to 4x zoom on a 2x/retina
   display.
+
+## Fitting the wrapped world
+
+After repositioning projects, preview the seam-aware layout calculation:
+
+```
+node scripts/layout-world.mjs --dry-run
+```
+
+To save the calculated transforms, `layout-report.json`, and `world-layout.js`:
+
+```
+node scripts/layout-world.mjs --write
+```
+
+The layout utility preserves existing overlaps as rigid groups and pins projects
+visible from the original `(5000, 5000)` desktop starting point.
+
+For a non-destructive preview that distributes individual images across the
+current world while keeping the desktop load-in rectangle clear, open
+`index.html?layoutPreview=spaced`. The preview keeps saved scales and rotations,
+and never writes to `projects.js`.

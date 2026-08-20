@@ -1,0 +1,19 @@
+{
+  "mode": "write",
+  "projectCount": 66,
+  "rigidGroupCount": 65,
+  "overlappingProjectCount": 2,
+  "pinnedGroupCount": 5,
+  "naturalGap": 40,
+  "compressions": [],
+  "movedGroups": [],
+  "remainingGroupCollisions": 0,
+  "world": {
+    "minX": 2860.464639944904,
+    "minY": 3645.436594256718,
+    "maxX": 9196.974881145079,
+    "maxY": 8676.83611487575,
+    "width": 6376.510241200175,
+    "height": 5071.399520619032
+  }
+}

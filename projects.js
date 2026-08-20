@@ -12,11 +12,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 4954,
-            y: 3739,
-            rotation: 0
-        }
+    scale: 300,
+    x: 7914.578019872535,
+    y: 8113.4473427500925,
+    rotation: 0
+}
              
     },
     {
@@ -31,11 +31,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 748,
-            x: 4945,
-            y: 4394,
-            rotation: 0
-        }
+    scale: 1028.833158426045,
+    x: 3889.2470551279202,
+    y: 5102.225944310781,
+    rotation: 0
+}
         
     },
     {
@@ -50,11 +50,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 5749,
-            y: 4495,
-            rotation: 0
-        }
+    scale: 300,
+    x: 4107.7273526170375,
+    y: 7538.307268260694,
+    rotation: 0
+}
         
     },
     {
@@ -69,11 +69,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 6113,
-            y: 4570,
-            rotation: 0
-        }
+    scale: 300,
+    x: 8167.7603224044215,
+    y: 7181.464968300455,
+    rotation: 0
+}
         
     },
     {
@@ -88,11 +88,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 5371,
-            y: 3737,
-            rotation: 0
-        }
+    scale: 300,
+    x: 5222.388723487521,
+    y: 7189.659057263962,
+    rotation: 0
+}
         
     },
     {
@@ -107,11 +107,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 400,
-            x: 4463,
-            y: 4679,
-            rotation: -1
-        }
+    scale: 400,
+    x: 8081.641050462537,
+    y: 4246.106343248522,
+    rotation: -1
+}
         
     },
     {
@@ -126,11 +126,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 4537,
-            y: 4165,
-            rotation: 0
-        }
+    scale: 300,
+    x: 6442.287808901998,
+    y: 6915.763104439782,
+    rotation: 0
+}
         
     },
     {
@@ -145,17 +145,16 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 4096,
-            y: 4487,
-            rotation: 0
-        }
+    scale: 300,
+    x: 7489.845866664709,
+    y: 8004.961789262931,
+    rotation: 0
+}
         
     },
     {
         id: "stammtisch",
         image: "stammtisch-green.webp",
-        showCaption: false,
 
         metadata: {
             name: "Stammtisch Guest Invitation",
@@ -165,11 +164,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 4166,
-            y: 3958,
-            rotation: -2
-        }
+    scale: 300,
+    x: 4769.001402999843,
+    y: 4693.905516025729,
+    rotation: -2
+}
         
     },
     {
@@ -184,11 +183,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 300,
-            x: 4163,
-            y: 4156,
-            rotation: -1
-        }
+    scale: 300,
+    x: 8165.461998074804,
+    y: 6812.867363879063,
+    rotation: -1
+}
         
     },
     {
@@ -203,11 +202,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 395,
-            x: 4488,
-            y: 5435,
-            rotation: 1
-        }
+    scale: 395,
+    x: 2895.574293434071,
+    y: 6117.867762962751,
+    rotation: 1
+}
         
     },
     {
@@ -223,8 +222,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 4090.6666666666665,
-    y: 4954.333333333333,
+    x: 4113.184562511804,
+    y: 8110.877305505393,
     rotation: 1
 }
         
@@ -241,11 +240,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 350,
-            x: 5739,
-            y: 3932,
-            rotation: 1
-        } 
+    scale: 350,
+    x: 2953.904042827259,
+    y: 8205.43376086439,
+    rotation: 1
+} 
     },
     {
         id: "czech_bier_days",
@@ -259,11 +258,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 350,
-            x: 6132,
-            y: 3958,
-            rotation: -1
-        } 
+    scale: 350,
+    x: 2895.473005854428,
+    y: 7411.680207953985,
+    rotation: -1
+}
     },
     {
         id: "boeven",
@@ -277,11 +276,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 236,
-            x: 3501,
-            y: 4476,
-            rotation: 0
-        } 
+    scale: 236,
+    x: 8010.027887933642,
+    y: 5833.553010153548,
+    rotation: 0
+}
     },
     {
         id: "boeven",
@@ -295,16 +294,15 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 236,
-            x: 3798,
-            y: 4475,
-            rotation: 0
-        } 
+    scale: 236,
+    x: 2814.325910377143,
+    y: 5228.416188703281,
+    rotation: 0
+} 
     },
     {
         id: "boeven",
         image: "HC_Building.webp",
-        showCaption: false,
 
         metadata: {
             name: "Halfway Crooks Illustration",
@@ -315,10 +313,10 @@ const projects = [
         },
         transform: {
     scale: 613.0884609498246,
-    x: 2867.0202962178437,
-    y: 4448.148913325066,
+    x: 7897.6753358565475,
+    y: 7678.4473427500925,
     rotation: 0
-} 
+}
     },
     {
         id: "fun_day",
@@ -332,11 +330,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 297,
-            x: 4548,
-            y: 3648,
-            rotation: 1
-        } 
+    scale: 297,
+    x: 5347.302260527888,
+    y: 8316.398992890008,
+    rotation: 1
+} 
     },
     {
         id: "eurovision",
@@ -350,11 +348,11 @@ const projects = [
             year: "2025"
         },
         transform: {
-            scale: 365,
-            x: 3750,
-            y: 3783,
-            rotation: 1
-        } 
+    scale: 365,
+    x: 8797.081029508521,
+    y: 6048.134879728836,
+    rotation: 1
+} 
     },
     {
         id: "boeven",
@@ -369,8 +367,8 @@ const projects = [
         },
         transform: {
     scale: 593.7851435717098,
-    x: 2860.464639944904,
-    y: 4799.819880950413,
+    x: 6788.210976636887,
+    y: 6582.381008749933,
     rotation: 0
 }
     },
@@ -386,9 +384,9 @@ const projects = [
             year: "2025"
         },
         transform: {
-    scale: 278.44524071123556,
-    x: 3762.549318598709,
-    y: 5011.512167114813,
+    scale: 324.24331716255534,
+    x: 3053.898961308837,
+    y: 3736.152213549272,
     rotation: -1
 }
     },
@@ -404,10 +402,10 @@ const projects = [
             year: "2025"
         },
         transform: {
-    scale: 284.24726594257527,
-    x: 3445.950945247801,
-    y: 5019.6505550056,
-    rotation: -1
+    scale: 321.8827500038167,
+    x: 7023.12326787807,
+    y: 6943.5150250447405,
+    rotation: 0
 }
     },
     {
@@ -423,15 +421,14 @@ const projects = [
         },
         transform: {
     scale: 372.09999270340745,
-    x: 3335.9123777546884,
-    y: 3783.2648800744705,
+    x: 4789.236395468358,
+    y: 3678.6405642282193,
     rotation: -1
 }
     },
     {
         id: "akira",
         image: "akira.webp",
-        showCaption: false,
 
         metadata: {
             name: "Akira",
@@ -441,15 +438,14 @@ const projects = [
         },
         transform: {
     scale: 590.1297957645013,
-    x: 7270.243988553631,
-    y: 4908.551860264035,
+    x: 6778.792134163984,
+    y: 7716.898533484768,
     rotation: 0
 }
     },
     {
         id: "backcover_akira",
         image: "BackCover_Akira.webp",
-        showCaption: false,
 
         metadata: {
             name: "BackCover Akira",
@@ -459,8 +455,8 @@ const projects = [
         },
         transform: {
     scale: 311.47456435569734,
-    x: 7566.634580086902,
-    y: 6562.3983683077095,
+    x: 8095.098140572401,
+    y: 3656.4091222806846,
     rotation: 0
 }
     },
@@ -476,8 +472,8 @@ const projects = [
         },
         transform: {
     scale: 377.14962084021715,
-    x: 3953.3258201853246,
-    y: 6074.375156523916,
+    x: 3606.6522503047654,
+    y: 6664.269759457671,
     rotation: 0
 }
     },
@@ -493,8 +489,8 @@ const projects = [
         },
         transform: {
     scale: 532.69205778726,
-    x: 4300.733784122214,
-    y: 6728.517405459554,
+    x: 8635.111744008387,
+    y: 8091.690439133128,
     rotation: 0
 }
     },
@@ -510,8 +506,8 @@ const projects = [
         },
         transform: {
     scale: 400.7750605919223,
-    x: 6119.459053343351,
-    y: 5983.428499874781,
+    x: 5272.813572519749,
+    y: 4234.553168279546,
     rotation: 1
 }
     },
@@ -527,8 +523,8 @@ const projects = [
         },
         transform: {
     scale: 373.0132639576822,
-    x: 6552.186326070625,
-    y: 5980.683696468821,
+    x: 3286.3916856119977,
+    y: 5049.603708,
     rotation: 0
 }
     },
@@ -544,8 +540,8 @@ const projects = [
         },
         transform: {
     scale: 394.6709650460095,
-    x: 4385.702479338843,
-    y: 6073.405960430753,
+    x: 3595.0606050460747,
+    y: 3675.4438046726245,
     rotation: 0
 }
     },
@@ -561,15 +557,14 @@ const projects = [
         },
         transform: {
     scale: 1401.0808864114686,
-    x: 3025.0888381900063,
-    y: 5606.334021837581,
+    x: 7691.044457062973,
+    y: 5134.637485146017,
     rotation: 0
 }
     },
     {
         id: "frontcover_akira",
         image: "FrontCover_Akira.webp",
-        showCaption: false,
 
         metadata: {
             name: "FrontCover Akira",
@@ -579,8 +574,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 6953.476083145505,
-    y: 4926.073127973953,
+    x: 8391.358257221395,
+    y: 6045,
     rotation: 0
 }
     },
@@ -596,15 +591,14 @@ const projects = [
         },
         transform: {
     scale: 616.1876103598622,
-    x: 4242.529426496369,
-    y: 7209.601803155521,
+    x: 2890.4646399449034,
+    y: 6810.269759457671,
     rotation: 0
 }
     },
     {
         id: "helix00",
         image: "helix00.webp",
-        showCaption: false,
 
         metadata: {
             name: "Helix00",
@@ -614,8 +608,8 @@ const projects = [
         },
         transform: {
     scale: 598.851668222916,
-    x: 7602.263961933382,
-    y: 5343.501126972202,
+    x: 4541.075665889543,
+    y: 8282.520008056747,
     rotation: 0
 }
     },
@@ -631,15 +625,14 @@ const projects = [
         },
         transform: {
     scale: 590.3681298013944,
-    x: 7603.110443275732,
-    y: 6107.878787878788,
+    x: 2890.464639944904,
+    y: 4439.4438046726245,
     rotation: 0
 }
     },
     {
         id: "helix03",
         image: "helix03.webp",
-        showCaption: false,
 
         metadata: {
             name: "Helix03",
@@ -649,8 +642,8 @@ const projects = [
         },
         transform: {
     scale: 587.949558763933,
-    x: 7603.939393939394,
-    y: 5724.763335837716,
+    x: 5674.05428997993,
+    y: 7083.315533867334,
     rotation: 0
 }
     },
@@ -665,9 +658,9 @@ const projects = [
             year: "2022"
         },
         transform: {
-    scale: 409.53953870793964,
-    x: 8247.530678687704,
-    y: 5830.057600801402,
+    scale: 360.5229913147165,
+    x: 6616.886504327061,
+    y: 4268.704687300459,
     rotation: -1
 }
     },
@@ -683,8 +676,8 @@ const projects = [
         },
         transform: {
     scale: 408.3850989651009,
-    x: 8245.02629601803,
-    y: 5350.92662158778,
+    x: 6549.986648639337,
+    y: 3675.4438046726245,
     rotation: 0
 }
     },
@@ -700,15 +693,14 @@ const projects = [
         },
         transform: {
     scale: 344.74175935610583,
-    x: 3558.9030803906835,
-    y: 6079.524167292764,
+    x: 6290.016063400948,
+    y: 8165.358918493702,
     rotation: -1
 }
     },
     {
         id: "nara_10_11",
         image: "nara_10-11.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 10 11",
@@ -718,15 +710,14 @@ const projects = [
         },
         transform: {
     scale: 599.363346406122,
-    x: 5264.177288740371,
-    y: 7874.457440059752,
+    x: 3408.3640062109152,
+    y: 7380.269759457671,
     rotation: 0
 }
     },
     {
         id: "nara_12_13",
         image: "nara_12-13.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 12 13",
@@ -736,8 +727,8 @@ const projects = [
         },
         transform: {
     scale: 589.3837386048358,
-    x: 5876.778625281217,
-    y: 7879.300848748131,
+    x: 5639.5764402902705,
+    y: 7780.406870991889,
     rotation: 0
 }
     },
@@ -753,15 +744,14 @@ const projects = [
         },
         transform: {
     scale: 592.3667120403933,
-    x: 5251.990895274982,
-    y: 8282.447342750093,
+    x: 4091.1387256192584,
+    y: 4267.4438046726245,
     rotation: 0
 }
     },
     {
         id: "nara_1st",
         image: "nara_1st.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 1st",
@@ -771,15 +761,14 @@ const projects = [
         },
         transform: {
     scale: 593.420266758701,
-    x: 5583.724030542965,
-    y: 6661.422652540656,
+    x: 6785.548638539185,
+    y: 8352.447342750093,
     rotation: 0
 }
     },
     {
         id: "nara_2_3",
         image: "nara_2-3.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 2 3",
@@ -789,15 +778,14 @@ const projects = [
         },
         transform: {
     scale: 601.4078093500233,
-    x: 5265.599643307212,
-    y: 7059.4560732631035,
+    x: 8566.395992445625,
+    y: 3675.4438046726245,
     rotation: 0
 }
     },
     {
         id: "nara_4_5",
         image: "nara_4-5.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 4 5",
@@ -807,15 +795,14 @@ const projects = [
         },
         transform: {
     scale: 599.1988968218739,
-    x: 5877.988275808052,
-    y: 7057.953443661302,
+    x: 3408.5284557951636,
+    y: 8347.447342750093,
     rotation: 0
 }
     },
     {
         id: "nara_6_7",
         image: "nara_6-7.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 6 7",
@@ -825,15 +812,14 @@ const projects = [
         },
         transform: {
     scale: 601.0277107392468,
-    x: 5260.738256979425,
-    y: 7469.855663845032,
+    x: 4518.641772406569,
+    y: 7625.4473427500925,
     rotation: 0
 }
     },
     {
         id: "nara_8_9",
         image: "nara_8-9.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara 8 9",
@@ -843,15 +829,14 @@ const projects = [
         },
         transform: {
     scale: 597.4575307921976,
-    x: 5876.112392096318,
-    y: 7460.5016979290285,
+    x: 6865.807825098567,
+    y: 6028.684557949766,
     rotation: 0
 }
     },
     {
         id: "nara_backcover",
         image: "nara_BackCover.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara BackCover",
@@ -861,15 +846,14 @@ const projects = [
         },
         transform: {
     scale: 303.5200382556073,
-    x: 5871.734605979151,
-    y: 8287.258867214057,
+    x: 6339.921971466203,
+    y: 7549.586391957308,
     rotation: 0
 }
     },
     {
         id: "nara_frontcover",
         image: "nara_FrontCover.webp",
-        showCaption: false,
 
         metadata: {
             name: "Nara FrontCover",
@@ -879,8 +863,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 5265.491418260077,
-    y: 6667.373901185212,
+    x: 6383.673363818643,
+    y: 6130.886954752244,
     rotation: 0
 }
     },
@@ -896,8 +880,8 @@ const projects = [
         },
         transform: {
     scale: 532.3764056460991,
-    x: 7936.680855659689,
-    y: 4796.871922558692,
+    x: 3395.683946923239,
+    y: 6045,
     rotation: 0
 }
     },
@@ -913,8 +897,8 @@ const projects = [
         },
         transform: {
     scale: 677.3165643003317,
-    x: 8515.67304014181,
-    y: 4735.1371737505315,
+    x: 5779.3348596509495,
+    y: 4326,
     rotation: 0
 }
     },
@@ -930,8 +914,8 @@ const projects = [
         },
         transform: {
     scale: 320.6121435570215,
-    x: 6560.355486865348,
-    y: 6810.974991358845,
+    x: 3639.7284934974155,
+    y: 4508.426356105485,
     rotation: 1
 }
     },
@@ -947,8 +931,8 @@ const projects = [
         },
         transform: {
     scale: 402.0669798245174,
-    x: 5667.822897433394,
-    y: 5980.921084098525,
+    x: 4146.753677812949,
+    y: 6672.046661232336,
     rotation: 0
 }
     },
@@ -964,8 +948,8 @@ const projects = [
         },
         transform: {
     scale: 332.0717467439662,
-    x: 5289.568352430428,
-    y: 5997.757909549826,
+    x: 5267.067345980471,
+    y: 3675.4438046726245,
     rotation: 0
 }
     },
@@ -981,15 +965,14 @@ const projects = [
         },
         transform: {
     scale: 319.17096467916485,
-    x: 5290.441593600221,
-    y: 6246.716314030394,
+    x: 4106.052403320296,
+    y: 5945.55133079525,
     rotation: 0
 }
     },
     {
         id: "pg2_3_akira",
         image: "pg2_3_Akira.webp",
-        showCaption: false,
 
         metadata: {
             name: "Pg2 3 Akira",
@@ -999,15 +982,14 @@ const projects = [
         },
         transform: {
     scale: 600.0434793912261,
-    x: 6953.437401457606,
-    y: 5322.113087630831,
+    x: 8567.760322404421,
+    y: 6810.269759457671,
     rotation: 0
 }
     },
     {
         id: "pg4_5_akira",
         image: "pg4_5_AKira.webp",
-        showCaption: false,
 
         metadata: {
             name: "Pg4 5 AKira",
@@ -1017,15 +999,15 @@ const projects = [
         },
         transform: {
     scale: 596.8706772604917,
-    x: 6959.065611935153,
-    y: 5731.137843969246,
+    x: 5662.757947241382,
+    y: 6312.269759457671,
     rotation: 0
 }
     },
     {
         id: "pg6_7_akira",
         image: "pg6_7_Akira.webp",
-        showCaption: false,
+        
 
         metadata: {
             name: "Pg6 7 Akira",
@@ -1035,8 +1017,8 @@ const projects = [
         },
         transform: {
     scale: 600.2104070229688,
-    x: 6953.285519825668,
-    y: 6139.195096609969,
+    x: 4537.6764547985085,
+    y: 6157.99230032215,
     rotation: 0
 }
     },
@@ -1053,8 +1035,8 @@ const projects = [
         },
         transform: {
     scale: 593.7738675675678,
-    x: 6956.2895053708235,
-    y: 6557.980968949607,
+    x: 4089.7315700920835,
+    y: 3675.4438046726245,
     rotation: 0
 }
     },
@@ -1069,9 +1051,9 @@ const projects = [
             year: "2022"
         },
         transform: {
-    scale: 1191.9703194303204,
-    x: 6510.8050658901,
-    y: 4031.259249140542,
+    scale: 878.266138249084,
+    x: 7096.203146335016,
+    y: 4355.540039015743,
     rotation: 0
 }
     },
@@ -1087,8 +1069,8 @@ const projects = [
         },
         transform: {
     scale: 319.0345651412017,
-    x: 6204.157689179203,
-    y: 6624.78138395084,
+    x: 4797.046565126871,
+    y: 6813.022192804237,
     rotation: -1
 }
     },
@@ -1104,8 +1086,8 @@ const projects = [
         },
         transform: {
     scale: 326.0341655863555,
-    x: 7740.265878510533,
-    y: 4351.717489076958,
+    x: 7583.130024280126,
+    y: 7053.941926995627,
     rotation: 0
 }
     },
@@ -1121,8 +1103,8 @@ const projects = [
         },
         transform: {
     scale: 479.37962304130747,
-    x: 8721.01675678493,
-    y: 5287.0421415538785,
+    x: 8622.597512637361,
+    y: 4259.296637905871,
     rotation: 1
 }
     },
@@ -1138,8 +1120,8 @@ const projects = [
         },
         transform: {
     scale: 335.6091145746487,
-    x: 4884.094686362291,
-    y: 7214.619385577653,
+    x: 7590.457759307821,
+    y: 6219.127729367137,
     rotation: 0
 }
     },
@@ -1155,8 +1137,8 @@ const projects = [
         },
         transform: {
     scale: 343.9057678118451,
-    x: 4890.303899592883,
-    y: 6612.3257022102725,
+    x: 5218.8521794295375,
+    y: 6129.269759457671,
     rotation: 0
 }
     },
@@ -1172,9 +1154,60 @@ const projects = [
         },
         transform: {
     scale: 373.1762796864086,
-    x: 4871.676259901107,
-    y: 5985.195165920526,
+    x: 8789.37658743942,
+    y: 7383.4800992954,
     rotation: 1
+}
+    },
+    {
+        id: "film",
+        image: "roll1-kodak400-30.webp",
+
+        metadata: {
+            name: "Colorado, Kodak 400",
+            type: "Photography",
+            tools: ["Canon AE-1"],
+            year: "2023"
+        },
+        transform: {
+    scale: 683.5927332823989,
+    x: 7077.891509742552,
+    y: 3675.4438046726245,
+    rotation: 0
+}
+    },
+    {
+        id: "film",
+        image: "roll1-kodak400-31.webp",
+
+        metadata: {
+            name: "Colorado, Kodak 400",
+            type: "Photography",
+            tools: ["Canon AE-1"],
+            year: "2023"
+        },
+        transform: {
+    scale: 670.6517889883869,
+    x: 5733.107773841953,
+    y: 3672.724564330919,
+    rotation: 0
+}
+    },
+    {
+        id: "snappingdogs",
+        image: "snappingdogs_wordmarks.webp",
+
+        metadata: {
+            name: "Snapping Dogs Wordmarks Playground",
+            type: "Brand Identity",
+            tools: ["Illustrator", "Photoshop"],
+            year: "2020"
+        },
+        transform: {
+    scale: 589.7596365709145,
+    x: 7002.515253174268,
+    y: 5290.380694632057,
+    rotation: 0
 }
     },
 ];

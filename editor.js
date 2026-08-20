@@ -100,9 +100,16 @@ window.addEventListener("keydown", (e) => {
     // selectedProject.el is a direct reference set in gallery.js — several
     // projects share the same `id`, so looking this up by data-id would
     // rotate the wrong (first-matching) tile.
-    if (selectedProject.el) {
+    if (typeof syncProjectInstances === "function") {
+        syncProjectInstances(selectedProject);
+    } else if (selectedProject.el) {
         selectedProject.el.style.transform =
             `rotate(${selectedProject.transform.rotation}deg)`;
+    }
+
+    if ((e.key.toLowerCase() === "q" || e.key.toLowerCase() === "e") &&
+        typeof refitWorld === "function") {
+        refitWorld();
     }
 
     updateHUD();
