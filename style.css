@@ -123,12 +123,15 @@ html, body {
 }
 
 .portfolioIntroEmail {
+    position: relative;
+    z-index: 2;
     margin-top: 8px;
     pointer-events: auto;
     font-size: 14px;
     line-height: 1;
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .portfolioIntroEmail:hover,
