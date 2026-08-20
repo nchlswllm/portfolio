@@ -1,0 +1,7 @@
+.git
+scripts
+README.md
+editor.js
+images/*
+!images/opt
+!images/manifest.js
