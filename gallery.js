@@ -10,10 +10,16 @@ const SPACED_PREVIEW_EXCLUSION = { minX: 5000, minY: 5000, maxX: 6920, maxY: 594
 
 let x = 0, y = 0, zoom = 1;
 let worldWidth = 1, worldHeight = 1, worldOriginX = 0, worldOriginY = 0;
-let dragging = false, startX, startY, updatePending = false, settleTimer = null;
+let dragging = false, updatePending = false, settleTimer = null;
 const tiles = [];
 const projectInstances = new Map();
 const introInstances = [document.querySelector(".portfolioIntro")].filter(Boolean);
+const activePointers = new Map();
+let gestureMode = null;
+let panPointerId = null;
+let panLastX = 0, panLastY = 0;
+let pinchStartDistance = 1, pinchStartZoom = 1;
+let pinchWorldX = 0, pinchWorldY = 0;
 
 const modulo = (value, period) => ((value % period) + period) % period;
 
@@ -895,27 +901,90 @@ if (spacedPreviewSummary) {
 }
 
 
-viewport.addEventListener("mousedown", event => {
+function beginPointerPan(pointer) {
+    gestureMode = "pan";
+    panPointerId = pointer.id;
+    panLastX = pointer.x;
+    panLastY = pointer.y;
+}
+
+function beginPointerPinch() {
+    const [first, second] = [...activePointers.values()];
+    if (!first || !second) return;
+    const centerX = (first.x + second.x) / 2;
+    const centerY = (first.y + second.y) / 2;
+    gestureMode = "pinch";
+    pinchStartDistance = Math.max(1, Math.hypot(second.x - first.x, second.y - first.y));
+    pinchStartZoom = zoom;
+    pinchWorldX = (centerX - x) / zoom;
+    pinchWorldY = (centerY - y) / zoom;
+}
+
+function finishPointer(event) {
+    if (!activePointers.delete(event.pointerId)) return;
+    if (activePointers.size >= 2) {
+        beginPointerPinch();
+    } else if (activePointers.size === 1) {
+        beginPointerPan(activePointers.values().next().value);
+    } else {
+        gestureMode = null;
+        panPointerId = null;
+        dragging = false;
+        endInteractionSoon();
+    }
+}
+
+viewport.addEventListener("pointerdown", event => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
     if (curatorMode && event.target.closest(".project")) return;
+    event.preventDefault();
+    const pointer = { id: event.pointerId, x: event.clientX, y: event.clientY };
+    activePointers.set(event.pointerId, pointer);
+    viewport.setPointerCapture(event.pointerId);
     dragging = true;
-    startX = event.clientX;
-    startY = event.clientY;
     beginInteraction();
+    if (activePointers.size === 1) beginPointerPan(pointer);
+    else if (activePointers.size === 2) beginPointerPinch();
 });
 
-window.addEventListener("mouseup", () => {
-    dragging = false;
-    endInteractionSoon();
-});
+viewport.addEventListener("pointermove", event => {
+    const pointer = activePointers.get(event.pointerId);
+    if (!pointer) return;
+    event.preventDefault();
+    pointer.x = event.clientX;
+    pointer.y = event.clientY;
 
-window.addEventListener("mousemove", event => {
-    if (!dragging) return;
-    x += event.clientX - startX;
-    y += event.clientY - startY;
-    startX = event.clientX;
-    startY = event.clientY;
+    if (activePointers.size >= 2) {
+        const [first, second] = [...activePointers.values()];
+        const centerX = (first.x + second.x) / 2;
+        const centerY = (first.y + second.y) / 2;
+        const distance = Math.max(1, Math.hypot(second.x - first.x, second.y - first.y));
+        zoom = pinchStartZoom * distance / pinchStartDistance;
+        clampZoom();
+        x = centerX - pinchWorldX * zoom;
+        y = centerY - pinchWorldY * zoom;
+    } else if (gestureMode === "pan" && event.pointerId === panPointerId) {
+        x += pointer.x - panLastX;
+        y += pointer.y - panLastY;
+        panLastX = pointer.x;
+        panLastY = pointer.y;
+    }
+
     wrap();
     scheduleUpdate();
+});
+
+viewport.addEventListener("pointerup", finishPointer);
+viewport.addEventListener("pointercancel", finishPointer);
+viewport.addEventListener("lostpointercapture", finishPointer);
+
+window.addEventListener("blur", () => {
+    if (!activePointers.size) return;
+    activePointers.clear();
+    gestureMode = null;
+    panPointerId = null;
+    dragging = false;
+    endInteractionSoon();
 });
 
 viewport.addEventListener("wheel", event => {

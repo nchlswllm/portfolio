@@ -25,6 +25,7 @@ html, body {
     overflow: hidden;
     width: 100%;
     height: 100%;
+    overscroll-behavior: none;
 }
 
 
@@ -34,6 +35,8 @@ html, body {
     overflow: hidden;
     cursor: grab;
     background: #ffffff;
+    touch-action: none;
+    overscroll-behavior: none;
 }
 
 
@@ -89,7 +92,7 @@ html, body {
     max-width: 300px;
     font-family: var(--font-main);
     font-size: 14px;
-    line-height: .75;
+    line-height: 1;
     letter-spacing: .03em;
     color: #1C25D3;
 }
@@ -193,6 +196,20 @@ html, body {
     line-height: 1;
     transform: translateX(-50%);
     white-space: nowrap;
+}
+
+.touchHint {
+    display: none;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    .desktopHint {
+        display: none;
+    }
+
+    .touchHint {
+        display: block;
+    }
 }
 
 #run_club {
