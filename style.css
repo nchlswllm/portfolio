@@ -198,18 +198,20 @@ html, body {
     white-space: nowrap;
 }
 
+.desktopHint {
+    display: block;
+}
+
 .touchHint {
     display: none;
 }
 
-@media (hover: none) and (pointer: coarse) {
-    .desktopHint {
-        display: none;
-    }
+body.mobileLanding .desktopHint {
+    display: none;
+}
 
-    .touchHint {
-        display: block;
-    }
+body.mobileLanding .touchHint {
+    display: block;
 }
 
 #run_club {

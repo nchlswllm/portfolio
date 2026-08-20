@@ -7,6 +7,10 @@ const BASE_MIN_ZOOM = 0.3;
 const manifest = typeof imageManifest !== "undefined" ? imageManifest : {};
 const spacedPreviewEnabled = new URLSearchParams(location.search).get("layoutPreview") === "spaced";
 const SPACED_PREVIEW_EXCLUSION = { minX: 5000, minY: 5000, maxX: 6920, maxY: 5945 };
+const mobileLanding = navigator.maxTouchPoints > 0 && Math.min(innerWidth, innerHeight) <= 767;
+const MOBILE_LANDING_CENTER = { x: 5960, y: 5472.5 };
+
+document.body.classList.toggle("mobileLanding", mobileLanding);
 
 let x = 0, y = 0, zoom = 1;
 let worldWidth = 1, worldHeight = 1, worldOriginX = 0, worldOriginY = 0;
@@ -859,9 +863,16 @@ for (const instances of projectInstances.values()) {
 }
 positionIntroInstances();
 
-clampZoom();
-x = (worldOriginX - 5000) * zoom;
-y = (worldOriginY - 5000) * zoom;
+if (mobileLanding) {
+    zoom = 1;
+    clampZoom();
+    x = innerWidth / 2 - (MOBILE_LANDING_CENTER.x - worldOriginX) * zoom;
+    y = innerHeight / 2 - (MOBILE_LANDING_CENTER.y - worldOriginY) * zoom;
+} else {
+    clampZoom();
+    x = (worldOriginX - 5000) * zoom;
+    y = (worldOriginY - 5000) * zoom;
+}
 wrap();
 update();
 refreshTiles();
