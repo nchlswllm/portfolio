@@ -11,7 +11,10 @@ const mobileLanding = /Android|iPhone|iPad|iPod|Mobile|Tablet/i.test(navigator.u
     navigator.maxTouchPoints > 0 ||
     matchMedia("(pointer: coarse)").matches ||
     "ontouchstart" in window;
-const MOBILE_LANDING_CENTER = { x: 5960, y: 5472.5 };
+// Center of the 1920 x 945 intro frame positioned at (5000, 5000).
+// Using the frame center keeps the load-in view centered at every viewport size,
+// rather than only when the browser matches the original desktop dimensions.
+const LANDING_CENTER = { x: 5960, y: 5472.5 };
 
 document.body.classList.toggle("mobileLanding", mobileLanding);
 
@@ -866,16 +869,10 @@ for (const instances of projectInstances.values()) {
 }
 positionIntroInstances();
 
-if (mobileLanding) {
-    zoom = 1;
-    clampZoom();
-    x = innerWidth / 2 - (MOBILE_LANDING_CENTER.x - worldOriginX) * zoom;
-    y = innerHeight / 2 - (MOBILE_LANDING_CENTER.y - worldOriginY) * zoom;
-} else {
-    clampZoom();
-    x = (worldOriginX - 5000) * zoom;
-    y = (worldOriginY - 5000) * zoom;
-}
+if (mobileLanding) zoom = 1;
+clampZoom();
+x = innerWidth / 2 - (LANDING_CENTER.x - worldOriginX) * zoom;
+y = innerHeight / 2 - (LANDING_CENTER.y - worldOriginY) * zoom;
 wrap();
 update();
 refreshTiles();
