@@ -13,8 +13,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 7914.578019872535,
-    y: 8113.4473427500925,
+    x: 7846.880625348008,
+    y: 8201.659099251749,
     rotation: 0
 }
              
@@ -50,9 +50,9 @@ const projects = [
             year: "2025"
         },
         transform: {
-    scale: 300,
-    x: 4107.7273526170375,
-    y: 7538.307268260694,
+    scale: 368.89844464293327,
+    x: 4115.436216723144,
+    y: 7319.375527647298,
     rotation: 0
 }
         
@@ -88,9 +88,9 @@ const projects = [
             year: "2025"
         },
         transform: {
-    scale: 300,
-    x: 5222.388723487521,
-    y: 7189.659057263962,
+    scale: 244.90453736476132,
+    x: 5859.140898651834,
+    y: 7249.788197291584,
     rotation: 0
 }
         
@@ -165,8 +165,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 4769.001402999843,
-    y: 4693.905516025729,
+    x: 4826.3410961621175,
+    y: 4622.913514967675,
     rotation: -2
 }
         
@@ -203,8 +203,8 @@ const projects = [
         },
         transform: {
     scale: 395,
-    x: 2895.574293434071,
-    y: 6117.867762962751,
+    x: 2916.160658133121,
+    y: 5978.703396290533,
     rotation: 1
 }
         
@@ -222,8 +222,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 4113.184562511804,
-    y: 8110.877305505393,
+    x: 4162.521292790879,
+    y: 8061.540575226319,
     rotation: 1
 }
         
@@ -295,8 +295,8 @@ const projects = [
         },
         transform: {
     scale: 236,
-    x: 2814.325910377143,
-    y: 5228.416188703281,
+    x: 2864.3954611005524,
+    y: 4953.675577041495,
     rotation: 0
 } 
     },
@@ -331,10 +331,10 @@ const projects = [
         },
         transform: {
     scale: 297,
-    x: 5347.302260527888,
-    y: 8316.398992890008,
+    x: 5350.693064160472,
+    y: 8360.47944011359,
     rotation: 1
-} 
+}
     },
     {
         id: "eurovision",
@@ -350,7 +350,7 @@ const projects = [
         transform: {
     scale: 365,
     x: 8797.081029508521,
-    y: 6048.134879728836,
+    y: 6124.427961461962,
     rotation: 1
 } 
     },
@@ -574,8 +574,8 @@ const projects = [
         },
         transform: {
     scale: 300,
-    x: 8391.358257221395,
-    y: 6045,
+    x: 8360.841024528145,
+    y: 6285.7470579134215,
     rotation: 0
 }
     },
@@ -608,8 +608,8 @@ const projects = [
         },
         transform: {
     scale: 598.851668222916,
-    x: 4541.075665889543,
-    y: 8282.520008056747,
+    x: 4537.345781893701,
+    y: 8353.38780397774,
     rotation: 0
 }
     },
@@ -642,8 +642,8 @@ const projects = [
         },
         transform: {
     scale: 587.949558763933,
-    x: 5674.05428997993,
-    y: 7083.315533867334,
+    x: 5670.970744337488,
+    y: 6838.17365529318,
     rotation: 0
 }
     },
@@ -693,8 +693,8 @@ const projects = [
         },
         transform: {
     scale: 344.74175935610583,
-    x: 6290.016063400948,
-    y: 8165.358918493702,
+    x: 6300.626266987176,
+    y: 8219.470956783463,
     rotation: -1
 }
     },
@@ -703,10 +703,10 @@ const projects = [
         image: "nara_10-11.webp",
 
         metadata: {
-            name: "Nara 10 11",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 599.363346406122,
@@ -720,10 +720,10 @@ const projects = [
         image: "nara_12-13.webp",
 
         metadata: {
-            name: "Nara 12 13",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 589.3837386048358,
@@ -737,15 +737,15 @@ const projects = [
         image: "nara_14-15.webp",
 
         metadata: {
-            name: "Yoshitomo Nara Museum Booklet",
+            name: "Yoshitomo Nara Booklet",
             type: "Print",
             tools: ["Illustrator", "Photoshop", "InDesign"],
             year: "2021"
         },
         transform: {
     scale: 592.3667120403933,
-    x: 4091.1387256192584,
-    y: 4267.4438046726245,
+    x: 4102.060571935882,
+    y: 4434.001961001137,
     rotation: 0
 }
     },
@@ -754,10 +754,10 @@ const projects = [
         image: "nara_1st.webp",
 
         metadata: {
-            name: "Nara 1st",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 593.420266758701,
@@ -771,15 +771,15 @@ const projects = [
         image: "nara_2-3.webp",
 
         metadata: {
-            name: "Nara 2 3",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 601.4078093500233,
-    x: 8566.395992445625,
-    y: 3675.4438046726245,
+    x: 8568.447428643338,
+    y: 3595.4377929618195,
     rotation: 0
 }
     },
@@ -788,15 +788,15 @@ const projects = [
         image: "nara_4-5.webp",
 
         metadata: {
-            name: "Nara 4 5",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 599.1988968218739,
-    x: 3408.5284557951636,
-    y: 8347.447342750093,
+    x: 3425.4879568285955,
+    y: 8139.308011885245,
     rotation: 0
 }
     },
@@ -805,15 +805,15 @@ const projects = [
         image: "nara_6-7.webp",
 
         metadata: {
-            name: "Nara 6 7",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 601.0277107392468,
-    x: 4518.641772406569,
-    y: 7625.4473427500925,
+    x: 4689.440931137553,
+    y: 7836.7815761412485,
     rotation: 0
 }
     },
@@ -822,10 +822,10 @@ const projects = [
         image: "nara_8-9.webp",
 
         metadata: {
-            name: "Nara 8 9",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 597.4575307921976,
@@ -839,10 +839,10 @@ const projects = [
         image: "nara_BackCover.webp",
 
         metadata: {
-            name: "Nara BackCover",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 303.5200382556073,
@@ -856,10 +856,10 @@ const projects = [
         image: "nara_FrontCover.webp",
 
         metadata: {
-            name: "Nara FrontCover",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Yoshitomo Nara Booklet",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2021"
         },
         transform: {
     scale: 300,
@@ -931,8 +931,8 @@ const projects = [
         },
         transform: {
     scale: 402.0669798245174,
-    x: 4146.753677812949,
-    y: 6672.046661232336,
+    x: 4137.503040885622,
+    y: 6565.66433656808,
     rotation: 0
 }
     },
@@ -964,9 +964,9 @@ const projects = [
             year: "2025"
         },
         transform: {
-    scale: 319.17096467916485,
-    x: 4106.052403320296,
-    y: 5945.55133079525,
+    scale: 332.0717467439662,
+    x: 5287.581707957601,
+    y: 3785.4753825499556,
     rotation: 0
 }
     },
@@ -975,10 +975,10 @@ const projects = [
         image: "pg2_3_Akira.webp",
 
         metadata: {
-            name: "Pg2 3 Akira",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Akira Zine",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2022"
         },
         transform: {
     scale: 600.0434793912261,
@@ -992,10 +992,10 @@ const projects = [
         image: "pg4_5_AKira.webp",
 
         metadata: {
-            name: "Pg4 5 AKira",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Akira Zine",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2022"
         },
         transform: {
     scale: 596.8706772604917,
@@ -1010,15 +1010,15 @@ const projects = [
         
 
         metadata: {
-            name: "Pg6 7 Akira",
-            type: "",
-            tools: [],
-            year: ""
+            name: "Akira Zine",
+            type: "Print",
+            tools: ["Illustrator", "Photoshop", "InDesign"],
+            year: "2022"
         },
         transform: {
     scale: 600.2104070229688,
-    x: 4537.6764547985085,
-    y: 6157.99230032215,
+    x: 4035.0585150804327,
+    y: 5891.265602250901,
     rotation: 0
 }
     },
@@ -1035,8 +1035,8 @@ const projects = [
         },
         transform: {
     scale: 593.7738675675678,
-    x: 4089.7315700920835,
-    y: 3675.4438046726245,
+    x: 4098.742093303298,
+    y: 3765.5490367847706,
     rotation: 0
 }
     },
@@ -1069,8 +1069,8 @@ const projects = [
         },
         transform: {
     scale: 319.0345651412017,
-    x: 4797.046565126871,
-    y: 6813.022192804237,
+    x: 4679.871830714068,
+    y: 6681.9715030004445,
     rotation: -1
 }
     },
@@ -1086,8 +1086,8 @@ const projects = [
         },
         transform: {
     scale: 326.0341655863555,
-    x: 7583.130024280126,
-    y: 7053.941926995627,
+    x: 7637.213342219831,
+    y: 6902.881625164036,
     rotation: 0
 }
     },
@@ -1118,10 +1118,10 @@ const projects = [
             tools: ["Illustrator", "Photoshop", "InDesign"],
             year: "2024"
         },
-        transform: {
+       transform: {
     scale: 335.6091145746487,
-    x: 7590.457759307821,
-    y: 6219.127729367137,
+    x: 7585.83393617248,
+    y: 6285.402527640358,
     rotation: 0
 }
     },
@@ -1208,6 +1208,176 @@ const projects = [
     x: 7002.515253174268,
     y: 5290.380694632057,
     rotation: 0
+}
+    },
+    {
+        id: "sketchbook_scan_01",
+        image: "nicholas_scan01.webp",
+
+        metadata: {
+            name: "Sketchbook Scan 01",
+            type: "Illustration",
+            tools: ["Graphite on Paper"],
+            year: "2026"
+        },
+        transform: {
+    scale: 344.1496547489328,
+    x: 5236.2807575423085,
+    y: 7261.358021449971,
+    rotation: -1
+}
+    },
+    {
+        id: "sketchbook_scan_03",
+        image: "nicholas_scan03.webp",
+
+        metadata: {
+            name: "Sketchbook Scan 03",
+            type: "Illustration",
+            tools: ["Graphite on Paper"],
+            year: "2026"
+        },
+        transform: {
+    scale: 300,
+    x: 7627.527433358127,
+    y: 5727.191279635972,
+    rotation: 0
+}
+    },
+    {
+        id: "sketchbook_scan_04",
+        image: "nicholas_scan04.webp",
+
+        metadata: {
+            name: "Sketchbook Scan 04",
+            type: "Illustration",
+            tools: ["Graphite on Paper"],
+            year: "2026"
+        },
+        transform: {
+    scale: 300,
+    x: 5819.557626464368,
+    y: 8286.313496559378,
+    rotation: 1
+}
+    },
+    {
+        id: "sketchbook",
+        image: "nicholas_scan06.webp",
+
+        metadata: {
+            name: "Sketchbook Scan",
+            type: "Illustration",
+            tools: ["Graphite on Paper"],
+            year: "2026"
+        },
+        transform: {
+    scale: 407.97914676091835,
+    x: 4706.116694096415,
+    y: 5986.001491914323,
+    rotation: -1
+}
+    },
+    {
+        id: "japanfleur",
+        image: "japanfleur.webp",
+
+        metadata: {
+            name: "Japan Fleur",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 300,
+    x: 7524.470422389873,
+    y: 7502.421037215039,
+    rotation: 0
+}
+    },
+    {
+        id: "rose",
+        image: "rose.webp",
+
+        metadata: {
+            name: "Rose",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 429.2241100244021,
+    x: 4608.161359241832,
+    y: 7153.232407920891,
+    rotation: 1
+}
+    },
+    {
+        id: "sheet_test_03",
+        image: "sheet_test_03.webp",
+
+        metadata: {
+            name: "Sheet Test 03",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 300,
+    x: 8247.247571451213,
+    y: 8295.918738720104,
+    rotation: -1
+}
+    },
+    {
+        id: "sunflower",
+        image: "sunflower.webp",
+
+        metadata: {
+            name: "Sunflower",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 300,
+    x: 5143.556434654139,
+    y: 6767.857829598868,
+    rotation: 0
+}
+    },
+    {
+        id: "tulip",
+        image: "tulip.webp",
+
+        metadata: {
+            name: "Tulip",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 300,
+    x: 8766.846293162069,
+    y: 5633.195052514902,
+    rotation: 1
+}
+    },
+    {
+        id: "wildflower",
+        image: "wildflower.webp",
+
+        metadata: {
+            name: "Wildflower",
+            type: "Painting",
+            tools: ["Oil Paint on Canvas"],
+            year: "2024"
+        },
+        transform: {
+    scale: 300,
+    x: 8350.350897533152,
+    y: 5700.919207513263,
+    rotation: -1
 }
     },
 ];
