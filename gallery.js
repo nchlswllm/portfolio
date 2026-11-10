@@ -45,6 +45,7 @@
         const dimensions = imageManifest[image.image];
         const picture = document.createElement("picture");
         picture.className = "gallery-image";
+        if (detailsFor(image.id).trimTopImages?.includes(image.image)) picture.classList.add("gallery-image-trim-top");
         if (detailsFor(image.id).blendImages?.includes(image.image)) picture.classList.add("gallery-image-blend");
         if (detailsFor(image.id).insetImages?.includes(image.image)) picture.classList.add("gallery-image-inset");
         const img = document.createElement("img");
@@ -196,7 +197,8 @@
                 }
             }
 
-            const supporting = pictures.filter(item => !used.has(item.filename));
+            const trailingNames = (details.trailingRows || []).flat();
+            const supporting = pictures.filter(item => !used.has(item.filename) && !trailingNames.includes(item.filename));
             const assigned = new Set();
             const units = [];
             for (const item of supporting) {
@@ -207,15 +209,17 @@
                 units.push({ items, ratio: 1 / items.reduce((sum, value) => sum + 1 / value.ratio, 0) });
             }
             const widestRatio = Math.max(1, ...units.map(unit => unit.ratio));
-            const height = Math.min(mobile ? Infinity : width * .55, availableHeight * .85, width / widestRatio);
+            const height = Math.min(mobile ? Infinity : width * .55, availableHeight * .85,
+                width / (details.supportingSingleRow ? Math.max(1, units.reduce((sum, unit) => sum + unit.ratio, 0)) : widestRatio));
             const stackGap = details.stackGap || 0;
             const stackInset = details.stackInset || { left: 0, top: 0, bottom: 0 };
-            const widthForUnit = unit => unit.items.length === 1 ? height * unit.ratio :
+            const widthForUnit = unit => unit.items.length === 1 ? height * unit.ratio * (details.supportingImageSizes?.[unit.items[0].filename]?.scale || 1) :
                 Math.max(1, height - stackGap * (unit.items.length - 1) - stackInset.top - stackInset.bottom) * unit.ratio + stackInset.left;
             let row = [];
             let rowWidth = 0;
             const flushRow = () => {
                 if (!row.length) return;
+                rowNumber++;
                 const element = document.createElement("div");
                 element.className = "gallery-row";
                 element.style.width = `${Math.min(1, rowWidth / width) * 100}%`;
@@ -225,6 +229,8 @@
                         const item = unit.items[0];
                         sizePicture(item, unitWidth / rowWidth, rowWidth);
                         item.picture.style.marginLeft = `${unit.gapBefore || 0}px`;
+                        item.picture.style.marginTop = `${details.supportingImageSizes?.[item.filename]?.top || 0}px`;
+                        item.picture.style.alignSelf = details.supportingImageSizes?.[item.filename]?.center ? "center" : "";
                         element.append(item.picture);
                     } else {
                         const stack = document.createElement("div");
@@ -259,6 +265,11 @@
                 if (mobile) flushRow();
             }
             flushRow();
+            for (const names of details.trailingRows || []) {
+                const items = names.map(name => byName.get(name)).filter(item => item && !used.has(item.filename));
+                const ratioSum = items.reduce((sum, item) => sum + item.ratio, 0);
+                appendRow(items, Math.min(1, availableHeight * .85 * ratioSum / width));
+            }
             gallery.replaceChildren(fragment);
             return;
         }

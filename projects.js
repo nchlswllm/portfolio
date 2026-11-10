@@ -1,4 +1,19 @@
 const projects = [
+    {
+        id: "halfway_crooks", image: "chcl.png",
+        metadata: { name: "Halfway Crooks CHCL", year: "2025" },
+        transform: { scale: 400, x: 0, y: 0, rotation: 0 }
+    },
+    {
+        id: "halfway_crooks", image: "menu_front.png",
+        metadata: { name: "Halfway Crooks Menu Front", year: "2025" },
+        transform: { scale: 400, x: 0, y: 0, rotation: 0 }
+    },
+    {
+        id: "halfway_crooks", image: "menu_back.png",
+        metadata: { name: "Halfway Crooks Menu Back", year: "2025" },
+        transform: { scale: 400, x: 0, y: 0, rotation: 0 }
+    },
 
     {
         id: "run_club",

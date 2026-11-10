@@ -20,6 +20,11 @@ const projectDetails = {
     },
     halfway_crooks: {
         title: "Halfway Crooks",
+        trimTopImages: ["chcl.png", "menu_front.png", "menu_back.png"],
+        rowGaps: { 4: 24 },
+        supportingImageSizes: { "chcl.png": { scale: .7225, center: true } },
+        supportingSingleRow: true,
+        trailingRows: [["menu_front.png", "menu_back.png"]],
         layout: "viewport-rows",
         stackGap: 24,
         stackInset: { left: 24, top: 24, bottom: 24 },
