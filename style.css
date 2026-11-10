@@ -36,6 +36,7 @@ button:hover { text-decoration: underline; text-underline-offset: .12em; }
 .project-credit { display: block; margin-top: 6px; font-size: 12pt; }
 .contact-content { padding-top: 60px; font-size: 12pt; line-height: 12pt; letter-spacing: normal; overflow-wrap: anywhere; }
 @media (max-width: 600px) {
+    .gallery-image-inset { padding: 0; }
     body { padding: 16px 14px 40px; }
     .site-header { flex-direction: column; gap: 10px; font-size: 12pt; }
     .project-index { margin-top: 52px; font-size: 12pt; }

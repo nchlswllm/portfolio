@@ -76,10 +76,11 @@
 
     function layoutGallery() {
         if (!gallery || !viewer.open) return;
+        const mobile = window.matchMedia("(max-width: 600px)").matches;
+        const details = detailsFor(activeProject);
+        gallery.style.width = `${mobile ? 100 : (details.width || 1) * 100}%`;
         const width = gallery.clientWidth;
         if (!width) return;
-        const mobile = width <= 600;
-        const details = detailsFor(activeProject);
         const byName = new Map(pictures.map(item => [item.filename, item]));
         const used = new Set();
         const fragment = document.createDocumentFragment();
@@ -90,6 +91,26 @@
             item.picture.querySelectorAll("img").forEach(img => { img.sizes = sizes; });
             item.picture.querySelectorAll("source").forEach(source => { source.sizes = sizes; });
             used.add(item.filename);
+        }
+
+        if (mobile) {
+            const names = [...new Set([
+                details.lead,
+                ...(details.rows || []).flat(Infinity),
+                ...pictures.map(item => item.filename)
+            ].filter(Boolean))];
+            for (const name of names) {
+                const item = byName.get(name);
+                if (!item) continue;
+                item.picture.removeAttribute("style");
+                sizePicture(item, 1, width);
+                const row = document.createElement("div");
+                row.className = "gallery-row";
+                row.append(item.picture);
+                fragment.append(row);
+            }
+            gallery.replaceChildren(fragment);
+            return;
         }
 
         let rowNumber = 0;
