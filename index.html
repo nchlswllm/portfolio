@@ -1,78 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <title>Infinite Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=20260820-4">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Selected design, illustration, and photographic work by Nicholas Miller.">
+    <title>Nicholas Miller — Selected Works</title>
+    <link rel="stylesheet" href="style.css?v=20261110-01">
 </head>
-
 <body>
-
-<div id="modeMessage"></div>
-
-<div id="viewport">
-    <div id="canvas">
-        <div id="desktopFrame" class="viewportGuide">DESKTOP 1920×1080</div>
-        <div id="laptopFrame" class="viewportGuide">LAPTOP 1366×768</div>
-        <div id="mobileFrame" class="viewportGuide">MOBILE 390×844</div>
-        <div class="portfolioIntro" aria-label="Nicholas Miller, Selected Works">
-            <div class="portfolioIntroMarks" aria-hidden="true">
-                <span class="introMark introMarkTopLeft"></span>
-                <span class="introMark introMarkTopRight"></span>
-                <span class="introMark introMarkBottomLeft"></span>
-                <span class="introMark introMarkBottomRight"></span>
-            </div>
-            <div class="portfolioIntroTitle">
-                <span>Nicholas Miller</span>
-                <span>Selected Works</span>
-                <a class="portfolioIntroEmail"
-                   href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=nicholaswilliamco@gmail.com"
-                   target="_blank"
-                   rel="noopener noreferrer">nicholaswilliamco@gmail.com</a>
-            </div>
-            <div class="portfolioIntroHint">
-                <span class="desktopHint">*+:^} click and drag to explore {^:+*</span>
-                <span class="desktopHint">(:scroll wheel to zoom in and out :)</span>
-                <span class="touchHint">*+:^} touch and drag to explore {^:+*</span>
-                <span class="touchHint">(:pinch to zoom in and out :)</span>
-            </div>
+    <header class="site-header">
+        <a class="site-name" href="#">Nicholas Miller</a>
+        <nav aria-label="Main navigation"><a href="#">Index</a><span aria-hidden="true"> / </span><a href="#contact">Contact</a></nav>
+    </header>
+    <main id="index">
+        <h1 class="sr-only">Selected works</h1>
+        <ul id="projectIndex" class="project-index" aria-label="Projects"></ul>
+        <noscript>Please enable JavaScript to view the project index and galleries.</noscript>
+    </main>
+    <dialog id="viewer" aria-labelledby="viewerTitle">
+        <div class="viewer-header">
+            <h2 id="viewerTitle" class="sr-only"></h2>
+            <button id="closeViewer" type="button" autofocus aria-label="Close and return to index">(Close)</button>
         </div>
-    </div>
-</div>
-
-<div id="curatorHUD">
-object.selected {
-<br><br>
-id:
-<br>
-"<span id="hudID">---</span>"
-<br><br>
-transform:
-<br>
-&nbsp;&nbsp;scale:
-<span id="hudScale">---</span>
-<br>
-&nbsp;&nbsp;x:
-<span id="hudX">---</span>
-<br>
-&nbsp;&nbsp;y:
-<span id="hudY">---</span>
-<br>
-&nbsp;&nbsp;rotation:
-<span id="hudRotation">---</span>
-<br><br>
-<button id="copyTransform">
-    copy_transform
-</button>
-}
-</div>
-
-<script src="state.js"></script>
-<script src="projects.js"></script>
-<script src="images/manifest.js"></script>
-<script src="world-layout.js"></script>
-<script src="editor.js"></script>
-<script src="gallery.js?v=20260823-1"></script>
-
+        <div id="viewerContent"></div>
+    </dialog>
+    <script src="projects.js?v=20261110-01"></script>
+    <script src="project-details.js?v=20261110-01"></script>
+    <script src="images/manifest.js?v=20261110-01"></script>
+    <script src="gallery.js?v=20261110-01"></script>
 </body>
 </html>

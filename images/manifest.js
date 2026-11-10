@@ -21,16 +21,16 @@ const imageManifest = {
       4128,
       5896
     ],
-    "srcKey": "536772:1784153443602"
+    "srcKey": "1405839:1794331689239"
   },
   "HC_Running_2.webp": {
     "base": "HC_Running_2",
     "w": 2250,
     "h": 2813,
     "tiers": [
-      320,
-      608,
-      1216,
+      384,
+      768,
+      1504,
       2250
     ],
     "srcKey": "3174864:1784149410586"
@@ -51,8 +51,9 @@ const imageManifest = {
     "w": 1080,
     "h": 1920,
     "tiers": [
-      320,
-      608,
+      256,
+      512,
+      992,
       1080
     ],
     "srcKey": "2895650:1784148598820"
@@ -298,7 +299,7 @@ const imageManifest = {
     ],
     "srcKey": "2955212:1787158345038"
   },
-  "drawingspread.webp": {
+  "drawingspread.png": {
     "base": "drawingspread",
     "w": 3033,
     "h": 2140,
@@ -308,7 +309,7 @@ const imageManifest = {
       2144,
       3033
     ],
-    "srcKey": "6286556:1787157917574"
+    "srcKey": "9904762:1794336293373"
   },
   "eameswirechair.webp": {
     "base": "eameswirechair",
@@ -367,17 +368,6 @@ const imageManifest = {
       2400
     ],
     "srcKey": "3381296:1787157637267"
-  },
-  "good_morning.webp": {
-    "base": "good_morning",
-    "w": 1599,
-    "h": 972,
-    "tiers": [
-      640,
-      1248,
-      1599
-    ],
-    "srcKey": "612494:1787158471090"
   },
   "helix00.webp": {
     "base": "helix00",
@@ -630,10 +620,10 @@ const imageManifest = {
     "w": 2745,
     "h": 2301,
     "tiers": [
-      320,
-      640,
-      1280,
-      2560
+      352,
+      672,
+      1344,
+      2688
     ],
     "srcKey": "172258:1786821621591"
   },
@@ -720,17 +710,17 @@ const imageManifest = {
     ],
     "srcKey": "1535998:1787158791070"
   },
-  "ValiantMarketing_ConceptBranding.webp": {
+  "ValiantMarketing_ConceptBranding.png": {
     "base": "ValiantMarketing_ConceptBranding",
-    "w": 3375,
+    "w": 3309,
     "h": 4527,
     "tiers": [
       480,
       960,
       1920,
-      3375
+      3309
     ],
-    "srcKey": "5837878:1787157187839"
+    "srcKey": "10082244:1794338320377"
   },
   "whoaFINAL.webp": {
     "base": "whoaFINAL",
@@ -809,9 +799,9 @@ const imageManifest = {
     "w": 2253,
     "h": 2812,
     "tiers": [
-      320,
-      608,
-      1216,
+      352,
+      704,
+      1408,
       2253
     ],
     "srcKey": "3183070:1793219856194"
@@ -845,14 +835,14 @@ const imageManifest = {
     "w": 2546,
     "h": 3508,
     "tiers": [
-      320,
-      608,
-      1216,
-      2400
+      416,
+      832,
+      1632,
+      2546
     ],
     "srcKey": "5921884:1793220574167"
   },
-  "japanfleur.webp": {
+  "japanfleur.png": {
     "base": "japanfleur",
     "w": 2030,
     "h": 2512,
@@ -862,19 +852,19 @@ const imageManifest = {
       1216,
       2030
     ],
-    "srcKey": "5341700:1793220634565"
+    "srcKey": "8609749:1794338818267"
   },
-  "rose.webp": {
+  "rose.png": {
     "base": "rose",
     "w": 2022,
     "h": 2532,
     "tiers": [
-      320,
-      608,
-      1216,
+      448,
+      864,
+      1728,
       2022
     ],
-    "srcKey": "6415326:1793220719259"
+    "srcKey": "9226033:1794338867694"
   },
   "sheet_test_03.webp": {
     "base": "sheet_test_03",
@@ -887,7 +877,7 @@ const imageManifest = {
     ],
     "srcKey": "1466406:1793220777660"
   },
-  "sunflower.webp": {
+  "sunflower.png": {
     "base": "sunflower",
     "w": 2030,
     "h": 2512,
@@ -897,9 +887,9 @@ const imageManifest = {
       1216,
       2030
     ],
-    "srcKey": "5746646:1793220842400"
+    "srcKey": "9136874:1794338902930"
   },
-  "tulip.webp": {
+  "tulip.png": {
     "base": "tulip",
     "w": 2058,
     "h": 2550,
@@ -909,7 +899,7 @@ const imageManifest = {
       1216,
       2058
     ],
-    "srcKey": "3016596:1793220904511"
+    "srcKey": "4858960:1794338766321"
   },
   "wildflower.webp": {
     "base": "wildflower",
@@ -921,6 +911,6 @@ const imageManifest = {
       1216,
       2038
     ],
-    "srcKey": "6036864:1793220999971"
+    "srcKey": "5993954:1794338699446"
   }
 };

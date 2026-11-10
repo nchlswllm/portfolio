@@ -1,60 +1,43 @@
-# Adding images
+# Nicholas Miller — Selected Works
 
-Images are never linked to at full resolution. `scripts/build-images.mjs` generates
-small AVIF/WebP tiles for each image, and `gallery.js` renders those via `<picture>`.
+A buildless portfolio with a text index and project galleries. Serve this folder
+with `node scripts/serve.mjs`, then visit `http://127.0.0.1:8000`.
 
-## Steps
+## Editing projects
 
-1. Drop the full-resolution file into `images/` (next to the others).
-2. Add an entry for it in `projects.js`, including `transform.scale` — this is the
-   width (in canvas px) the image displays at, and it's what the build script uses
-   to decide how large the generated tiles need to be. Use curator mode (`` ` ``) to
-   place it and `copy_transform` to get the values.
-3. Run the build script:
+- `projects.js` contains images. Entries with the same lowercase `id` share a
+  project gallery. Project order follows the first occurrence of each ID; images
+  follow their order in the file.
+- `project-details.js` contains display titles and caption settings. Add a matching
+  entry for a new project. Set `showCaption: false` to hide its project caption.
+- Galleries show landscape images full width and pair portrait/square images.
+  Mobile shows one image per row. Single-image projects always fill the width.
+- Optional project settings override the default layout: `order` lists filenames
+  in reading order; `layout: "single"` makes every image full width; `compact`
+  lists images for a half-width desktop row. `focal` specifies a featured `image`
+  with `left` and `right` filename stacks; mobile shows that image first.
+- Captions use the project title and the year or year range derived from image
+  metadata. Set `year: "2024–2025"` on a project detail to override that range.
+- Individual image metadata names are used for alt text, never visible captions.
+- Project links use `/#project/helix_motors`; Contact uses `/#contact`.
 
-   ```
-   node scripts/build-images.mjs
-   ```
+## Adding images
 
-4. Commit the original in `images/`, the new files it generated under `images/opt/`,
-   and `images/manifest.js` / `images/manifest.json`.
+1. Put the original file in `images/` and add its entry to `projects.js`.
+2. Run `node scripts/build-images.mjs` (requires ImageMagick with AVIF/WebP support).
+3. Include the generated `images/opt/` files and both image manifests when publishing.
 
-That's it — the script only (re)generates tiles for images that are new or whose
-`transform.scale` changed, so re-running it after adding one image is fast.
+The image builder still uses `transform.scale` as its base generated width. For a
+new image, a value around 400 generates multiple sizes up to the source width.
+The gallery uses manifest dimensions for its touching, uncropped rows and selects
+responsive AVIF/WebP assets. Originals remain available as a fallback. Regenerate
+the manifests after adding an image so the gallery knows its aspect ratio.
 
-## Flags
+## Legacy layout
 
-- `--force` — regenerate everything, ignoring the manifest cache. Use this after
-  changing encoder settings in the script (quality, tier multipliers, etc).
+Existing transforms, `editor.js`, `state.js`, `world-layout.js`, and layout utilities
+are retained from the infinite canvas. They are not loaded by the new index.
+Canvas layout commands are unnecessary for the current site.
 
-## Notes
-
-- Requires ImageMagick (`magick`) on `PATH` with AVIF + WebP support.
-- If an image is referenced in `projects.js` but hasn't been run through the script
-  yet, `gallery.js` falls back to loading the original file directly, so nothing
-  breaks — it's just unoptimized until you run the build.
-- The four tier widths generated per image are `scale × 1, 2, 4, 8`, clamped to the
-  source's native width. That covers sharp rendering up to 4x zoom on a 2x/retina
-  display.
-
-## Fitting the wrapped world
-
-After repositioning projects, preview the seam-aware layout calculation:
-
-```
-node scripts/layout-world.mjs --dry-run
-```
-
-To save the calculated transforms, `layout-report.json`, and `world-layout.js`:
-
-```
-node scripts/layout-world.mjs --write
-```
-
-The layout utility preserves existing overlaps as rigid groups and pins projects
-visible from the original `(5000, 5000)` desktop starting point.
-
-For a non-destructive preview that distributes individual images across the
-current world while keeping the desktop load-in rectangle clear, open
-`index.html?layoutPreview=spaced`. The preview keeps saved scales and rotations,
-and never writes to `projects.js`.
+The existing static hosting setup and custom domain are unchanged. No package
+installation or framework build is required.

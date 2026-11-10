@@ -134,7 +134,7 @@ const projects = [
         
     },
     {
-        id: "trivia_advertisement",
+        id: "halfway_crooks",
         image: "trivia_flyer_1080x1350_color.webp",
 
         metadata: {
@@ -153,7 +153,7 @@ const projects = [
         
     },
     {
-        id: "stammtisch",
+        id: "halfway_crooks",
         image: "stammtisch-green.webp",
 
         metadata: {
@@ -172,7 +172,7 @@ const projects = [
         
     },
     {
-        id: "stammtisch",
+        id: "halfway_crooks",
         image: "stammtisch-1.webp",
 
         metadata: {
@@ -191,7 +191,7 @@ const projects = [
         
     },
     {
-        id: "band_poster",
+        id: "halfway_crooks",
         image: "staff_show_digital_01.webp",
 
         metadata: {
@@ -210,7 +210,7 @@ const projects = [
         
     },
     {
-        id: "menu",
+        id: "halfway_crooks",
         image: "roast_dinner_card_1080x1920.webp",
 
         metadata: {
@@ -229,7 +229,7 @@ const projects = [
         
     },
     {
-        id: "czech_bier_days",
+        id: "halfway_crooks",
         image: "ig_post_final_czechbeerdays.webp",
 
         metadata: {
@@ -247,7 +247,7 @@ const projects = [
 } 
     },
     {
-        id: "czech_bier_days",
+        id: "halfway_crooks",
         image: "ig_post_final_czechbeerdays_events.webp",
 
         metadata: {
@@ -319,7 +319,7 @@ const projects = [
 }
     },
     {
-        id: "fun_day",
+        id: "halfway_crooks",
         image: "FUNday_.webp",
 
         metadata: {
@@ -337,7 +337,7 @@ const projects = [
 }
     },
     {
-        id: "eurovision",
+        id: "halfway_crooks",
         image: "Eurovision_Poster.webp",
 
         metadata: {
@@ -444,7 +444,7 @@ const projects = [
 }
     },
     {
-        id: "backcover_akira",
+        id: "akira",
         image: "BackCover_Akira.webp",
 
         metadata: {
@@ -461,7 +461,7 @@ const projects = [
 }
     },
     {
-        id: "basic_typography_poster",
+        id: "poster_design",
         image: "basic_typography_poster.webp",
 
         metadata: {
@@ -479,7 +479,7 @@ const projects = [
     },
     {
         id: "sketchbook",
-        image: "drawingspread.webp",
+        image: "drawingspread.png",
 
         metadata: {
             name: "Sketchbook",
@@ -495,7 +495,7 @@ const projects = [
 }
     },
     {
-        id: "eames_wirechair",
+        id: "poster_design",
         image: "eameswirechair.webp",
 
         metadata: {
@@ -529,7 +529,7 @@ const projects = [
 }
     },
     {
-        id: "exhibition_poster",
+        id: "poster_design",
         image: "ExhibitionPoster.webp",
 
         metadata: {
@@ -546,7 +546,7 @@ const projects = [
 }
     },
     {
-        id: "tattoo_flash_carousel",
+        id: "tattoo_flash",
         image: "flash_carousel.webp",
 
         metadata: {
@@ -563,7 +563,7 @@ const projects = [
 }
     },
     {
-        id: "frontcover_akira",
+        id: "akira",
         image: "FrontCover_Akira.webp",
 
         metadata: {
@@ -580,24 +580,7 @@ const projects = [
 }
     },
     {
-        id: "good_morning",
-        image: "good_morning.webp",
-
-        metadata: {
-            name: "Good Morning",
-            type: "Fine Art",
-            tools: ["Photoshop", "Procreate"],
-            year: "2022"
-        },
-        transform: {
-    scale: 616.1876103598622,
-    x: 2890.4646399449034,
-    y: 6810.269759457671,
-    rotation: 0
-}
-    },
-    {
-        id: "helix00",
+        id: "helix_motors",
         image: "helix00.webp",
 
         metadata: {
@@ -631,7 +614,7 @@ const projects = [
 }
     },
     {
-        id: "helix03",
+        id: "helix_motors",
         image: "helix03.webp",
 
         metadata: {
@@ -682,7 +665,7 @@ const projects = [
 }
     },
     {
-        id: "how_to_book",
+        id: "tattoo_flash",
         image: "how_to_book.webp",
 
         metadata: {
@@ -699,7 +682,7 @@ const projects = [
 }
     },
     {
-        id: "nara_10_11",
+        id: "yoshitomo_nara",
         image: "nara_10-11.webp",
 
         metadata: {
@@ -716,7 +699,7 @@ const projects = [
 }
     },
     {
-        id: "nara_12_13",
+        id: "yoshitomo_nara",
         image: "nara_12-13.webp",
 
         metadata: {
@@ -733,7 +716,7 @@ const projects = [
 }
     },
     {
-        id: "yoshitomo_nara_booklet",
+        id: "yoshitomo_nara",
         image: "nara_14-15.webp",
 
         metadata: {
@@ -750,7 +733,7 @@ const projects = [
 }
     },
     {
-        id: "nara_1st",
+        id: "yoshitomo_nara",
         image: "nara_1st.webp",
 
         metadata: {
@@ -767,7 +750,7 @@ const projects = [
 }
     },
     {
-        id: "nara_2_3",
+        id: "yoshitomo_nara",
         image: "nara_2-3.webp",
 
         metadata: {
@@ -784,7 +767,7 @@ const projects = [
 }
     },
     {
-        id: "nara_4_5",
+        id: "yoshitomo_nara",
         image: "nara_4-5.webp",
 
         metadata: {
@@ -801,7 +784,7 @@ const projects = [
 }
     },
     {
-        id: "nara_6_7",
+        id: "yoshitomo_nara",
         image: "nara_6-7.webp",
 
         metadata: {
@@ -818,7 +801,7 @@ const projects = [
 }
     },
     {
-        id: "nara_8_9",
+        id: "yoshitomo_nara",
         image: "nara_8-9.webp",
 
         metadata: {
@@ -835,7 +818,7 @@ const projects = [
 }
     },
     {
-        id: "nara_backcover",
+        id: "yoshitomo_nara",
         image: "nara_BackCover.webp",
 
         metadata: {
@@ -852,7 +835,7 @@ const projects = [
 }
     },
     {
-        id: "nara_frontcover",
+        id: "yoshitomo_nara",
         image: "nara_FrontCover.webp",
 
         metadata: {
@@ -869,7 +852,7 @@ const projects = [
 }
     },
     {
-        id: "nytimes_mockup",
+        id: "magazine_spreads",
         image: "nytimesmockup1.webp",
 
         metadata: {
@@ -886,7 +869,7 @@ const projects = [
 }
     },
     {
-        id: "nytimes_mockup",
+        id: "magazine_spreads",
         image: "nytimesmockup2.webp",
 
         metadata: {
@@ -903,7 +886,7 @@ const projects = [
 }
     },
     {
-        id: "odcd_album_cover",
+        id: "album_covers",
         image: "ODCD_cover.webp",
 
         metadata: {
@@ -920,7 +903,7 @@ const projects = [
 }
     },
     {
-        id: "offprint",
+        id: "offprint_concept",
         image: "offprintbitmaponbitmap jpg.webp",
 
         metadata: {
@@ -937,7 +920,7 @@ const projects = [
 }
     },
     {
-        id: "offprint_type",
+        id: "offprint_concept",
         image: "offprintdetails-02 jpg.webp",
 
         metadata: {
@@ -954,7 +937,7 @@ const projects = [
 }
     },
     {
-        id: "offprint_type",
+        id: "offprint_concept",
         image: "offprint_TYPE.webp",
 
         metadata: {
@@ -971,7 +954,7 @@ const projects = [
 }
     },
     {
-        id: "pg2_3_akira",
+        id: "akira",
         image: "pg2_3_Akira.webp",
 
         metadata: {
@@ -988,7 +971,7 @@ const projects = [
 }
     },
     {
-        id: "pg4_5_akira",
+        id: "akira",
         image: "pg4_5_AKira.webp",
 
         metadata: {
@@ -1005,7 +988,7 @@ const projects = [
 }
     },
     {
-        id: "pg6_7_akira",
+        id: "akira",
         image: "pg6_7_Akira.webp",
         
 
@@ -1023,7 +1006,7 @@ const projects = [
 }
     },
     {
-        id: "akira_zine",
+        id: "akira",
         image: "pg8_Akira.webp",
         
 
@@ -1041,7 +1024,7 @@ const projects = [
 }
     },
     {
-        id: "processboard_throneroom",
+        id: "throneroom",
         image: "ProcessBoard_throneroom.webp",
 
         metadata: {
@@ -1058,7 +1041,7 @@ const projects = [
 }
     },
     {
-        id: "summer19_album_cover",
+        id: "album_covers",
         image: "summer19_cover.webp",
 
         metadata: {
@@ -1075,7 +1058,7 @@ const projects = [
 }
     },
     {
-        id: "throne_room",
+        id: "throneroom",
         image: "throne_room.webp",
 
         metadata: {
@@ -1092,8 +1075,8 @@ const projects = [
 }
     },
     {
-        id: "valiantmarketing_conceptbranding",
-        image: "ValiantMarketing_ConceptBranding.webp",
+        id: "valiantmarketing_concept",
+        image: "ValiantMarketing_ConceptBranding.png",
 
         metadata: {
             name: "Valiant Marketing Concept Branding",
@@ -1109,7 +1092,7 @@ const projects = [
 }
     },
     {
-        id: "band_poster",
+        id: "poster_design",
         image: "whoaFINAL.webp",
 
         metadata: {
@@ -1126,7 +1109,7 @@ const projects = [
 }
     },
     {
-        id: "band_poster",
+        id: "poster_design",
         image: "whoa_poster1.webp",
 
         metadata: {
@@ -1143,7 +1126,7 @@ const projects = [
 }
     },
     {
-        id: "band_poster",
+        id: "poster_design",
         image: "whoa_poster2.webp",
 
         metadata: {
@@ -1211,7 +1194,7 @@ const projects = [
 }
     },
     {
-        id: "sketchbook_scan_01",
+        id: "sketchbook",
         image: "nicholas_scan01.webp",
 
         metadata: {
@@ -1228,7 +1211,7 @@ const projects = [
 }
     },
     {
-        id: "sketchbook_scan_03",
+        id: "sketchbook",
         image: "nicholas_scan03.webp",
 
         metadata: {
@@ -1245,7 +1228,7 @@ const projects = [
 }
     },
     {
-        id: "sketchbook_scan_04",
+        id: "sketchbook",
         image: "nicholas_scan04.webp",
 
         metadata: {
@@ -1279,8 +1262,8 @@ const projects = [
 }
     },
     {
-        id: "japanfleur",
-        image: "japanfleur.webp",
+        id: "oil_paintings",
+        image: "japanfleur.png",
 
         metadata: {
             name: "Japan Fleur",
@@ -1296,8 +1279,8 @@ const projects = [
 }
     },
     {
-        id: "rose",
-        image: "rose.webp",
+        id: "oil_paintings",
+        image: "rose.png",
 
         metadata: {
             name: "Rose",
@@ -1313,7 +1296,7 @@ const projects = [
 }
     },
     {
-        id: "sheet_test_03",
+        id: "tattoo_flash",
         image: "sheet_test_03.webp",
 
         metadata: {
@@ -1330,8 +1313,8 @@ const projects = [
 }
     },
     {
-        id: "sunflower",
-        image: "sunflower.webp",
+        id: "oil_paintings",
+        image: "sunflower.png",
 
         metadata: {
             name: "Sunflower",
@@ -1347,8 +1330,8 @@ const projects = [
 }
     },
     {
-        id: "tulip",
-        image: "tulip.webp",
+        id: "oil_paintings",
+        image: "tulip.png",
 
         metadata: {
             name: "Tulip",
@@ -1364,7 +1347,7 @@ const projects = [
 }
     },
     {
-        id: "wildflower",
+        id: "oil_paintings",
         image: "wildflower.webp",
 
         metadata: {
